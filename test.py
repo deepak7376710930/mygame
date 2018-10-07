@@ -154,7 +154,7 @@ def gameLoop():
     thingY=50
     thingH=80
     thingW=80
-    thingS=7
+    thingS=15
 
     gameExit=False
 
@@ -193,7 +193,7 @@ def gameLoop():
             thingY=-thingH
             count+=1
             thingX=random.randrange(0,display_width-thingW)
-            thingW+=2
+            thingW+=5
 
         gameDisplay.fill(white)
         thing(thingX,thingY,thingH,thingW)
